@@ -1,7 +1,7 @@
 // 南華法規查詢 — Service Worker
 // 策略：network-first，抓得到就用新的並更新快取；抓不到（離線、校外網路不穩）就吃快取。
 // 法規查詢最怕拿到過期版本，所以優先要新的，離線只是備援。
-const CACHE = 'nhu-law-20260823-0230';
+const CACHE = 'nhu-law-20260823-0243';
 const CORE = ['./', './index.html', './manifest.webmanifest',
               './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
